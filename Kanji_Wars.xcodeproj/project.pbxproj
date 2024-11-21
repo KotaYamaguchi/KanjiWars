@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11B7BCB02CC5E35600529418 /* Kanji_WarsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B7BCAF2CC5E35600529418 /* Kanji_WarsApp.swift */; };
+		11B7BCB22CC5E35600529418 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B7BCB12CC5E35600529418 /* ContentView.swift */; };
+		11B7BCB42CC5E35800529418 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11B7BCB32CC5E35800529418 /* Assets.xcassets */; };
+		11B7BCB72CC5E35800529418 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11B7BCB62CC5E35800529418 /* Preview Assets.xcassets */; };
+		11B7BCC12CC5E35800529418 /* Kanji_WarsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B7BCC02CC5E35800529418 /* Kanji_WarsTests.swift */; };
+		11B7BCCB2CC5E35800529418 /* Kanji_WarsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B7BCCA2CC5E35800529418 /* Kanji_WarsUITests.swift */; };
+		11B7BCCD2CC5E35800529418 /* Kanji_WarsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B7BCCC2CC5E35800529418 /* Kanji_WarsUITestsLaunchTests.swift */; };
+		11B7BCDA2CC5F0F000529418 /* SelectStageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B7BCD92CC5F0F000529418 /* SelectStageView.swift */; };
+		11B7BCDC2CC6229800529418 /* FirstGradeStageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B7BCDB2CC6229800529418 /* FirstGradeStageView.swift */; };
+		11B7BCDE2CC648DD00529418 /* OnlineBattleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B7BCDD2CC648DD00529418 /* OnlineBattleView.swift */; };
+		11B7BCE02CC649BD00529418 /* GachaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B7BCDF2CC649BC00529418 /* GachaView.swift */; };
+		11B7BCE22CC64A4800529418 /* IllustratedGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B7BCE12CC64A4800529418 /* IllustratedGuideView.swift */; };
+		11B7BCE42CC674F100529418 /* SoloGamePlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B7BCE32CC674F100529418 /* SoloGamePlayView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11B7BCBD2CC5E35800529418 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11B7BCA42CC5E35600529418 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11B7BCAB2CC5E35600529418;
+			remoteInfo = Kanji_Wars;
+		};
+		11B7BCC72CC5E35800529418 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11B7BCA42CC5E35600529418 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11B7BCAB2CC5E35600529418;
+			remoteInfo = Kanji_Wars;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11B7BCAC2CC5E35600529418 /* Kanji_Wars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kanji_Wars.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11B7BCAF2CC5E35600529418 /* Kanji_WarsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kanji_WarsApp.swift; sourceTree = "<group>"; };
+		11B7BCB12CC5E35600529418 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		11B7BCB32CC5E35800529418 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11B7BCB62CC5E35800529418 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		11B7BCBC2CC5E35800529418 /* Kanji_WarsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Kanji_WarsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11B7BCC02CC5E35800529418 /* Kanji_WarsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kanji_WarsTests.swift; sourceTree = "<group>"; };
+		11B7BCC62CC5E35800529418 /* Kanji_WarsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Kanji_WarsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11B7BCCA2CC5E35800529418 /* Kanji_WarsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kanji_WarsUITests.swift; sourceTree = "<group>"; };
+		11B7BCCC2CC5E35800529418 /* Kanji_WarsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kanji_WarsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		11B7BCD92CC5F0F000529418 /* SelectStageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectStageView.swift; sourceTree = "<group>"; };
+		11B7BCDB2CC6229800529418 /* FirstGradeStageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstGradeStageView.swift; sourceTree = "<group>"; };
+		11B7BCDD2CC648DD00529418 /* OnlineBattleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineBattleView.swift; sourceTree = "<group>"; };
+		11B7BCDF2CC649BC00529418 /* GachaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GachaView.swift; sourceTree = "<group>"; };
+		11B7BCE12CC64A4800529418 /* IllustratedGuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IllustratedGuideView.swift; sourceTree = "<group>"; };
+		11B7BCE32CC674F100529418 /* SoloGamePlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoloGamePlayView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11B7BCA92CC5E35600529418 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11B7BCB92CC5E35800529418 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11B7BCC32CC5E35800529418 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11B7BCA32CC5E35600529418 = {
+			isa = PBXGroup;
+			children = (
+				11B7BCAE2CC5E35600529418 /* Kanji_Wars */,
+				11B7BCBF2CC5E35800529418 /* Kanji_WarsTests */,
+				11B7BCC92CC5E35800529418 /* Kanji_WarsUITests */,
+				11B7BCAD2CC5E35600529418 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11B7BCAD2CC5E35600529418 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11B7BCAC2CC5E35600529418 /* Kanji_Wars.app */,
+				11B7BCBC2CC5E35800529418 /* Kanji_WarsTests.xctest */,
+				11B7BCC62CC5E35800529418 /* Kanji_WarsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11B7BCAE2CC5E35600529418 /* Kanji_Wars */ = {
+			isa = PBXGroup;
+			children = (
+				11B7BCAF2CC5E35600529418 /* Kanji_WarsApp.swift */,
+				11B7BCB12CC5E35600529418 /* ContentView.swift */,
+				11B7BCD92CC5F0F000529418 /* SelectStageView.swift */,
+				11B7BCB32CC5E35800529418 /* Assets.xcassets */,
+				11B7BCB52CC5E35800529418 /* Preview Content */,
+				11B7BCDB2CC6229800529418 /* FirstGradeStageView.swift */,
+				11B7BCDD2CC648DD00529418 /* OnlineBattleView.swift */,
+				11B7BCDF2CC649BC00529418 /* GachaView.swift */,
+				11B7BCE12CC64A4800529418 /* IllustratedGuideView.swift */,
+				11B7BCE32CC674F100529418 /* SoloGamePlayView.swift */,
+			);
+			path = Kanji_Wars;
+			sourceTree = "<group>";
+		};
+		11B7BCB52CC5E35800529418 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				11B7BCB62CC5E35800529418 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		11B7BCBF2CC5E35800529418 /* Kanji_WarsTests */ = {
+			isa = PBXGroup;
+			children = (
+				11B7BCC02CC5E35800529418 /* Kanji_WarsTests.swift */,
+			);
+			path = Kanji_WarsTests;
+			sourceTree = "<group>";
+		};
+		11B7BCC92CC5E35800529418 /* Kanji_WarsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				11B7BCCA2CC5E35800529418 /* Kanji_WarsUITests.swift */,
+				11B7BCCC2CC5E35800529418 /* Kanji_WarsUITestsLaunchTests.swift */,
+			);
+			path = Kanji_WarsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11B7BCAB2CC5E35600529418 /* Kanji_Wars */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11B7BCD02CC5E35800529418 /* Build configuration list for PBXNativeTarget "Kanji_Wars" */;
+			buildPhases = (
+				11B7BCA82CC5E35600529418 /* Sources */,
+				11B7BCA92CC5E35600529418 /* Frameworks */,
+				11B7BCAA2CC5E35600529418 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kanji_Wars;
+			productName = Kanji_Wars;
+			productReference = 11B7BCAC2CC5E35600529418 /* Kanji_Wars.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11B7BCBB2CC5E35800529418 /* Kanji_WarsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11B7BCD32CC5E35800529418 /* Build configuration list for PBXNativeTarget "Kanji_WarsTests" */;
+			buildPhases = (
+				11B7BCB82CC5E35800529418 /* Sources */,
+				11B7BCB92CC5E35800529418 /* Frameworks */,
+				11B7BCBA2CC5E35800529418 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11B7BCBE2CC5E35800529418 /* PBXTargetDependency */,
+			);
+			name = Kanji_WarsTests;
+			productName = Kanji_WarsTests;
+			productReference = 11B7BCBC2CC5E35800529418 /* Kanji_WarsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		11B7BCC52CC5E35800529418 /* Kanji_WarsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11B7BCD62CC5E35800529418 /* Build configuration list for PBXNativeTarget "Kanji_WarsUITests" */;
+			buildPhases = (
+				11B7BCC22CC5E35800529418 /* Sources */,
+				11B7BCC32CC5E35800529418 /* Frameworks */,
+				11B7BCC42CC5E35800529418 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11B7BCC82CC5E35800529418 /* PBXTargetDependency */,
+			);
+			name = Kanji_WarsUITests;
+			productName = Kanji_WarsUITests;
+			productReference = 11B7BCC62CC5E35800529418 /* Kanji_WarsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11B7BCA42CC5E35600529418 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					11B7BCAB2CC5E35600529418 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					11B7BCBB2CC5E35800529418 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 11B7BCAB2CC5E35600529418;
+					};
+					11B7BCC52CC5E35800529418 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 11B7BCAB2CC5E35600529418;
+					};
+				};
+			};
+			buildConfigurationList = 11B7BCA72CC5E35600529418 /* Build configuration list for PBXProject "Kanji_Wars" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11B7BCA32CC5E35600529418;
+			productRefGroup = 11B7BCAD2CC5E35600529418 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11B7BCAB2CC5E35600529418 /* Kanji_Wars */,
+				11B7BCBB2CC5E35800529418 /* Kanji_WarsTests */,
+				11B7BCC52CC5E35800529418 /* Kanji_WarsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11B7BCAA2CC5E35600529418 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11B7BCB72CC5E35800529418 /* Preview Assets.xcassets in Resources */,
+				11B7BCB42CC5E35800529418 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11B7BCBA2CC5E35800529418 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11B7BCC42CC5E35800529418 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11B7BCA82CC5E35600529418 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11B7BCDA2CC5F0F000529418 /* SelectStageView.swift in Sources */,
+				11B7BCE42CC674F100529418 /* SoloGamePlayView.swift in Sources */,
+				11B7BCE02CC649BD00529418 /* GachaView.swift in Sources */,
+				11B7BCB22CC5E35600529418 /* ContentView.swift in Sources */,
+				11B7BCDC2CC6229800529418 /* FirstGradeStageView.swift in Sources */,
+				11B7BCB02CC5E35600529418 /* Kanji_WarsApp.swift in Sources */,
+				11B7BCE22CC64A4800529418 /* IllustratedGuideView.swift in Sources */,
+				11B7BCDE2CC648DD00529418 /* OnlineBattleView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11B7BCB82CC5E35800529418 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11B7BCC12CC5E35800529418 /* Kanji_WarsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11B7BCC22CC5E35800529418 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11B7BCCB2CC5E35800529418 /* Kanji_WarsUITests.swift in Sources */,
+				11B7BCCD2CC5E35800529418 /* Kanji_WarsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11B7BCBE2CC5E35800529418 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11B7BCAB2CC5E35600529418 /* Kanji_Wars */;
+			targetProxy = 11B7BCBD2CC5E35800529418 /* PBXContainerItemProxy */;
+		};
+		11B7BCC82CC5E35800529418 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11B7BCAB2CC5E35600529418 /* Kanji_Wars */;
+			targetProxy = 11B7BCC72CC5E35800529418 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11B7BCCE2CC5E35800529418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		11B7BCCF2CC5E35800529418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11B7BCD12CC5E35800529418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kanji_Wars/Preview Content\"";
+				DEVELOPMENT_TEAM = PS5KJ37XVS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeLeft;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nakamura-ituki.Kanji-Wars";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11B7BCD22CC5E35800529418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kanji_Wars/Preview Content\"";
+				DEVELOPMENT_TEAM = PS5KJ37XVS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeLeft;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nakamura-ituki.Kanji-Wars";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		11B7BCD42CC5E35800529418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PS5KJ37XVS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nakamura-ituki.Kanji-WarsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kanji_Wars.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kanji_Wars";
+			};
+			name = Debug;
+		};
+		11B7BCD52CC5E35800529418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PS5KJ37XVS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nakamura-ituki.Kanji-WarsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kanji_Wars.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kanji_Wars";
+			};
+			name = Release;
+		};
+		11B7BCD72CC5E35800529418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PS5KJ37XVS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nakamura-ituki.Kanji-WarsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kanji_Wars;
+			};
+			name = Debug;
+		};
+		11B7BCD82CC5E35800529418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PS5KJ37XVS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nakamura-ituki.Kanji-WarsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kanji_Wars;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11B7BCA72CC5E35600529418 /* Build configuration list for PBXProject "Kanji_Wars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11B7BCCE2CC5E35800529418 /* Debug */,
+				11B7BCCF2CC5E35800529418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11B7BCD02CC5E35800529418 /* Build configuration list for PBXNativeTarget "Kanji_Wars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11B7BCD12CC5E35800529418 /* Debug */,
+				11B7BCD22CC5E35800529418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11B7BCD32CC5E35800529418 /* Build configuration list for PBXNativeTarget "Kanji_WarsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11B7BCD42CC5E35800529418 /* Debug */,
+				11B7BCD52CC5E35800529418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11B7BCD62CC5E35800529418 /* Build configuration list for PBXNativeTarget "Kanji_WarsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11B7BCD72CC5E35800529418 /* Debug */,
+				11B7BCD82CC5E35800529418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11B7BCA42CC5E35600529418 /* Project object */;
+}
